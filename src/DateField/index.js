@@ -460,6 +460,7 @@ export default class DateField extends Component {
     }, {})
 
     this.time = time
+    this.onChange(timeMoment)
   }
 
   getTime() {
